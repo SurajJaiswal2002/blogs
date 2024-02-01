@@ -69,18 +69,9 @@ Many software development teams face challenges in optimizing their continuous i
 
 ### Step 2: Configuring Jenkins to create a master agent on ec2
 
-1. Connect to http://<your\_server\_public\_DNS>:8080 from your browser. You will be able to access Jenkins through its management interface:
-
-![image](https://github.com/Flairminds/blogs/assets/135031436/4101ebd6-eefa-4c7c-824b-a487cefab52f)
-
-2. As prompted, enter the password found in **/var/lib/jenkins/secrets/initialAdminPassword**.
-
-  ![image](https://github.com/Flairminds/blogs/assets/135031436/3635e206-f86a-4adf-aae0-84f8e4bd1732)
-
-3. Once the installation is complete, the **Create First Admin User** will open. Enter your information, and then select **Save and Continue**.
-
-![image](https://github.com/Flairminds/blogs/assets/135031436/62ff5a7c-e391-4ab1-8b95-5eae03a6d611)
-
+1. Connect to http://<your_server_public_or_private_address>:8080 from your browser. You will be able to access Jenkins through its management interface:![image](https://github.com/Flairminds/blogs/assets/135031436/4101ebd6-eefa-4c7c-824b-a487cefab52f)
+2. As prompted, enter the password found in **/var/lib/jenkins/secrets/initialAdminPassword**.![image](https://github.com/Flairminds/blogs/assets/135031436/3635e206-f86a-4adf-aae0-84f8e4bd1732)
+3. Once the installation is complete, the **Create First Admin User** will open. Enter your information, and then select **Save and Continue**.![image](https://github.com/Flairminds/blogs/assets/135031436/62ff5a7c-e391-4ab1-8b95-5eae03a6d611)
 4. On the left-hand side, select **Manage Jenkins**, and then select **Manage Plugins**.
 5. Select the **Available** tab, and then enter **Amazon EC2 plugin** at the top right.
 6. Select the checkbox next to **Amazon EC2 plugin**, and then select **Install without restart**.
@@ -105,18 +96,9 @@ Many software development teams face challenges in optimizing their continuous i
 
 ### Step 3: Configuring Node
 
-1. Give host as Public ip of your slave ec2 instance and in credentials click on Add.
-
-![image](https://github.com/Flairminds/blogs/assets/135031436/0f620c53-f091-4c9f-9d8e-be546229d444)
-
-![image](https://github.com/Flairminds/blogs/assets/135031436/584b9e18-5bd4-4a07-a193-1df0f68429eb)
-
-2. Enter private key of slave-agent ec2
-
-![image](https://github.com/Flairminds/blogs/assets/135031436/5e00d5d0-a390-4fac-afa7-59477ecd5d12)
-
+1. Give host as Public ip of your slave ec2 instance and in credentials click on Add.![image](https://github.com/Flairminds/blogs/assets/135031436/0f620c53-f091-4c9f-9d8e-be546229d444)![image](https://github.com/Flairminds/blogs/assets/135031436/584b9e18-5bd4-4a07-a193-1df0f68429eb)
+2. Enter private key of slave-agent ec2.![image](https://github.com/Flairminds/blogs/assets/135031436/5e00d5d0-a390-4fac-afa7-59477ecd5d12)
 3. In host key verification strategy select non verifying.
-
 4. Save.
 
 ### Step 4: You will see that your agent will be in sync .
