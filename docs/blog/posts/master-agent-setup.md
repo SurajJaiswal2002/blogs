@@ -18,6 +18,8 @@ tags:
 ## Introduction
 In the realm of continuous integration and deployment, Jenkins stands as a powerful automation tool that streamlines the software development process. By leveraging Jenkins Master and Slave agents, you can distribute workloads across multiple nodes, optimizing performance and scalability. This step-by-step guide is designed to walk you through the process of setting up Jenkins Master and Slave agents on AWS EC2 instances.
 
+<!-- more -->
+
 ## Problem Statement
 Many software development teams face challenges in optimizing their continuous integration and deployment workflows. This guide aims to address the complexities involved in setting up Jenkins Master and Slave agents on AWS EC2 instances, providing solutions for efficient and scalable automation in cloud-based environments.
 
