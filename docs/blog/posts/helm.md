@@ -22,6 +22,8 @@ In a microservice architecture, you create more microservices as the application
 Helm provides one of the most accessible solutions to this problem, making deployments more consistent, repeatable, and reliable. In this article, you’ll learn about Helm and its use cases, as well as how to decide if you should adopt it for your Kubernetes projects.
 In the following sections, we will review the different components of Helm and how they help to simplify Kubernetes management.
 
+<!-- more -->
+
 ## Helm Charts
 
 A Helm chart is a package that contains all the necessary resources to deploy an application to a Kubernetes cluster. This includes YAML configuration files for deployments, services, secrets, and config maps that define the desired state of your application.
